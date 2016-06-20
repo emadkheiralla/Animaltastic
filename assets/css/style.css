@@ -1,0 +1,37 @@
+#animalsView{
+	display: inline-block;
+	background-color: #0AB9F2;
+	margin-top: 30%;
+}
+
+#animalDiv{
+	display: inline-block;
+	margin:20px;
+}
+
+h1{
+	font-size: 36px;
+	padding: 85px 0 0 28%;
+}
+body{
+	height: 100%;
+	background-image: url('../images/zoo.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+#animal-form{
+	padding-left: 28%;
+}
+
+p{
+	padding: 0 0 0 28%;
+}
+
+#buttonsView{
+	padding-left: 28%;
+}
+
+#rating{
+	color: white;
+}
