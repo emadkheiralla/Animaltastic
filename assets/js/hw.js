@@ -38,7 +38,7 @@ var animals = ['bat', 'cat', 'bear', 'lion'];
                 method: 'GET'
             })
             .done(function(response) {
-               
+               $("body").animate({ scrollTop: $(document).height() }, "slow");
                 var results = response.data;
                     for (var i = 0; i < results.length; i++) {
                         
@@ -53,7 +53,7 @@ var animals = ['bat', 'cat', 'bear', 'lion'];
                         			'src': results[i].images.fixed_width.url
                         		}
                         });
-                        $("body").animate({ scrollTop: $(document).height() }, "slow");
+                        
                         $(p).appendTo(animalDiv); // or animalDiv.append(p)
                         $(animalImage).appendTo(animalDiv);
 
